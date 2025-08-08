@@ -33,14 +33,15 @@
     <section id="portfolio" class="py-5">
     <div class="container">
         <h2 class="text-center mb-5">My Projects</h2>
+        <div class="projects-container">
         <div class="row g-4">
             <!-- Project 1 -->
             <div class="col-md-4">
                 <div class="card h-100 project-card">
-                    <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+                    <img src="images/eco-track.jpg" class="card-img-top" alt="EcoTrack App">
                     <div class="card-body">
-                        <h5 class="card-title project-title">Project 1</h5>
-                        <p class="card-text">Description of project 1 goes here.</p>
+                        <h5 class="card-title project-title">EcoTrack</h5>
+                        <p class="card-text">A web app that calculates your carbon footprint based on daily activities.</p>
                         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">
                             View Details
                         </button>
@@ -51,10 +52,10 @@
             <!-- Project 2 -->
             <div class="col-md-4">
                 <div class="card h-100 project-card">
-                    <img src="images/project2.jpg" class="card-img-top" alt="Project 2">
+                    <img src="images/recipe-finder.jpg" class="card-img-top" alt="RecipeFinder App">
                     <div class="card-body">
-                        <h5 class="card-title project-title">Project 2</h5>
-                        <p class="card-text">Description of project 2 goes here.</p>
+                        <h5 class="card-title project-title">RecipeFinder</h5>
+                        <p class="card-text">Meal planning application with dietary preference filters.</p>
                         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">
                             View Details
                         </button>
@@ -65,10 +66,10 @@
             <!-- Project 3 -->
             <div class="col-md-4">
                 <div class="card h-100 project-card">
-                    <img src="images/project3.jpg" class="card-img-top" alt="Project 3">
+                    <img src="images/task-master.jpg" class="card-img-top" alt="TaskMaster App">
                     <div class="card-body">
-                        <h5 class="card-title project-title">Project 3</h5>
-                        <p class="card-text">Description of project 3 goes here.</p>
+                        <h5 class="card-title project-title">TaskMaster</h5>
+                        <p class="card-text">Productivity dashboard with Pomodoro timer and task management.</p>
                         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project3Modal">
                             View Details
                         </button>
@@ -104,19 +105,25 @@
     </div>
 </section>
     <!-- Project Modals -->
-    <!-- Project 1 Modal -->
+     <!-- Project 1 Modal -->
 <div class="modal fade" id="project1Modal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Project 1 Details</h5>
+                <h5 class="modal-title">EcoTrack - Carbon Calculator</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <img src="images/project1.jpg" class="img-fluid mb-3" alt="Project 1">
-                <p>Detailed information about Project 1. Explain what technologies you used, challenges faced, and what you learned.</p>
-                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
-                <p><strong>Date:</strong> January 2023</p>
+                <img src="images/eco-track.jpg" class="img-fluid mb-3" alt="EcoTrack App">
+                <p>Developed a responsive web application that helps users understand their environmental impact by calculating their carbon footprint based on transportation, diet, and energy usage patterns.</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Interactive data visualization</li>
+                    <li>Personalized reduction tips</li>
+                    <li>Progress tracking</li>
+                </ul>
+                <p><strong>Technologies:</strong> HTML5, CSS3, JavaScript, Chart.js</p>
+                <p><strong>Date:</strong> March 2023</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -130,14 +137,20 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Project 2 Details</h5>
+                <h5 class="modal-title">RecipeFinder - Meal Planner</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <img src="images/project2.jpg" class="img-fluid mb-3" alt="Project 2">
-                <p>Detailed information about Project 2. Explain what technologies you used, challenges faced, and what you learned.</p>
-                <p><strong>Technologies:</strong> Bootstrap, JavaScript</p>
-                <p><strong>Date:</strong> March 2023</p>
+                <img src="images/recipe-finder.jpg" class="img-fluid mb-3" alt="RecipeFinder App">
+                <p>Created a recipe discovery platform that suggests meals based on available ingredients and dietary restrictions, helping users reduce food waste and eat healthier.</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Advanced search filters (vegan, gluten-free, etc.)</li>
+                    <li>Pantry inventory system</li>
+                    <li>Weekly meal planner</li>
+                </ul>
+                <p><strong>Technologies:</strong> Bootstrap 5, JavaScript, Spoonacular API</p>
+                <p><strong>Date:</strong> June 2023</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -151,14 +164,20 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Project 3 Details</h5>
+                <h5 class="modal-title">TaskMaster - Productivity Dashboard</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <img src="images/project3.jpg" class="img-fluid mb-3" alt="Project 3">
-                <p>Detailed information about Project 3. Explain what technologies you used, challenges faced, and what you learned.</p>
-                <p><strong>Technologies:</strong> HTML, CSS, Bootstrap</p>
-                <p><strong>Date:</strong> May 2023</p>
+                <img src="images/task-master.jpg" class="img-fluid mb-3" alt="TaskMaster App">
+                <p>Designed and implemented a comprehensive productivity tool combining task management with time-blocking techniques to help users focus and organize their workday.</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Drag-and-drop task board</li>
+                    <li>Customizable Pomodoro timer</li>
+                    <li>Performance analytics</li>
+                </ul>
+                <p><strong>Technologies:</strong> HTML5, CSS3, JavaScript, LocalStorage API</p>
+                <p><strong>Date:</strong> September 2023</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

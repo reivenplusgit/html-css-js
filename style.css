@@ -13,8 +13,20 @@ section {
 }
 
 /* Portfolio Section */
+/* Projects Container */
+.projects-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .project-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .project-card:hover {
